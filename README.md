@@ -23,15 +23,11 @@ We are considering using a tool like Next.js to get up and running faster.
 
 We will focus on building an open API first. Then developers can use the API to build their own mobile clients and voice interface clients.
 
-Here is our schema:
-
-![a diagram illustrating the proposed schema for chapter](https://user-images.githubusercontent.com/2755722/66802465-7d181900-eeea-11e9-9c6a-48012839d5f2.png)
-
 ### User Stories so far
 
 Our goal is to keep things simple and not reinvent wheels.
 
-So far we have only two user roles: participants and group organizers
+So far we have only three user roles: participants, group organizers, and maintainers
 
 #### As a future participant
 
@@ -63,7 +59,13 @@ So far we have only two user roles: participants and group organizers
 
 - I can add a food sponsor to the event with a link to their website as a way of thanking them for food.
 
-I can see how many times a participant has come to the event as well as their attendance rate
+- I can see how many times a participant has come to the event as well as their attendance rate
+
+### As a maintainer
+
+- I can deploy an instance of chapter to a cloud provider of my choice.
+
+- I can update my instances without losing my data.
 
 ### Roadmap
 
